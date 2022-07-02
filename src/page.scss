@@ -1,0 +1,118 @@
+#header-area.header-page {
+    background-color: #22252c;
+    padding-bottom: 60px;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.every-page-margin {
+    background-color: #22252c;
+    height: 120px;
+}
+
+#page-title-area {
+    background-image: url(./Images/blog/page-title-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0;
+    position: relative;
+    z-index: 1;
+}
+
+#page-title-area::after {
+    background-color: rgba(0, 0, 0, 0.4);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+#page-title-area h1 {
+    background: -webkit-linear-gradient(left, #00f298, #07f7f7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    font-size: 52px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#page-title-area p {
+    color: #f1f1f1;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+/* Page content style */
+
+#page-content-wrap {
+    background-color: #22252c;
+    padding: 60px 0;
+}
+
+.single-blog-wrap {
+    background-color: #313741;
+    margin-bottom: 40px;
+}
+
+.single-blog-wrap:last-child {
+    margin-bottom: 0;
+}
+
+.blog-thumbnail {
+    background-size: cover;
+    background-position: center center;
+    display: block;
+    height: auto;
+    width: 100%;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.blog-content-wrap {
+    padding-right: 20px;
+}
+
+.blog-content-wrap h4 a {
+    color: #02cfb4;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.post-meta-wrap {
+    margin: 5px 0 2px;
+}
+
+.post-meta-wrap a {
+    color: #f1f1f1;
+    font-size: 13px;
+    font-weight: 600;
+    position: relative;
+}
+
+.post-meta-wrap span {
+    color: #f1f1f1;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0 5px;
+}
+
+.post-meta-wrap a:hover {
+    color: #02cfb4;
+}
+
+.blog-content-wrap p {
+  color: #eaeaea;
+  font-size: 13.5px;
+  font-weight: 400;
+  letter-spacing: 0.8px;
+  line-height: 23px;
+}
